@@ -12,6 +12,11 @@ int main(int argc, char ** argv)
     initEngineGlut(argc, argv);
 
     EngineGlut e;
-    e.drawLine(0,0,100,100);
+    for (int i=0; i<100; i++)
+    {
+	    e.drawClear();
+	    e.drawLine(0,2*i,100,3*i);
+	    usleep(100000);
+    }
     std::cin.ignore();
 }
