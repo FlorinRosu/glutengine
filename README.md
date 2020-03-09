@@ -10,7 +10,7 @@ cd testEngine/
 make
 
 4. Set engine library runtime:
-export LD_LIBRAY_PATH=./:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH
 
 5. Run
 ./drawings
