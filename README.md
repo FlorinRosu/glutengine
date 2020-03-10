@@ -1,3 +1,4 @@
+LINUX:
 1. Make sure you have installed glut development package.
 sudo apt-get install freeglut3-dev 
 
@@ -14,3 +15,6 @@ export LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH
 
 5. Run
 ./drawings
+
+LINUX/WINDOWS using codeblocks
+

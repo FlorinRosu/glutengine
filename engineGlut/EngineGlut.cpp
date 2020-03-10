@@ -55,6 +55,8 @@ void EngineGlut::drawSurface(int x1, int y1, int x2, int y2, int x3, int y3)
 
     pthread_mutex_unlock(&lock);
 }
+
+/*
 void EngineGlut::drawSurface(int x1, int y1, int x2, int y2, int x3, int y3, Color c)
 {
     x1 += WIN_MAX_X/2;
@@ -119,6 +121,8 @@ void EngineGlut::drawSurface(int x1, int y1, int x2, int y2, int x3, int y3, Col
 
     pthread_mutex_unlock(&lock);
 }
+*/
+
 
 void EngineGlut::drawClear()
 {
