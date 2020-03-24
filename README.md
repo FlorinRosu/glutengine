@@ -1,5 +1,9 @@
+GET PROJECT
+git clone https://github.com/FlorinRosu/glutengine.git
+cd glutengine 
+
 LINUX:
-1. Make sure you have installed glut development package.
+1. Make sure you have installed glut development package. They are already install on UBUNTU machines from the university.
 sudo apt-get install freeglut3-dev 
 
 2. Compile engineGlut shared library:
